@@ -1,14 +1,18 @@
 # ck_module
 
-A Leiningen template for FIXME.
+A Leiningen template for Conskit Modules.
 
 ## Usage
 
-FIXME
+```
+lein new ck_module <modname>
+cd <modname>
+lein repl
+user=> (autotest)
+```
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 Jason Murphy
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
